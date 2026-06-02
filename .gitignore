@@ -1,0 +1,13 @@
+# ROS2 / Colcon build artifacts
+build/
+install/
+log/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Editor & System configurations
+.vscode/
+.DS_Store
+

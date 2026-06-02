@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+  <!-- load parameter -->
+  <xacro:property name="vehicle_info" value="${xacro.load_yaml('$(find yuhesen_fr_max_vehicle_description)/config/vehicle_info.param.yaml')}"/>
+
+  <!-- vehicle body -->
+  <link name="base_link">
+    <visual>
+      <origin xyz="0.425 0 0" rpy="0 0 1.5708"/>
+      <geometry>
+        <mesh filename="package://yuhesen_fr_max_vehicle_description/mesh/frmax_visual.dae" scale="1 1 1"/>
+      </geometry>
+    </visual>
+  </link>
+</robot>

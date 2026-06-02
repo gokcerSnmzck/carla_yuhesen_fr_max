@@ -1,0 +1,43 @@
+sensor_kit_base_link:
+  traffic_light_left_camera/camera_link:
+    x: 0.7
+    y: 0.25
+    z: 0.52
+    roll: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  lidar_front:
+    x: 0.75
+    y: 0.0
+    z: 0.55
+    roll: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  lidar_rear:
+    x: -0.75
+    y: 0.0
+    z: 0.55
+    roll: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  gnss_link:
+    x: 0.0
+    y: 0.0
+    z: 0.52
+    roll: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  imu_link:
+    x: 0.1
+    y: 0.0
+    z: 0.3
+    roll: 0.0
+    pitch: 0.0
+    yaw: 0.0
+  camera_front:
+    x: 0.7
+    y: 0.0
+    z: 0.52
+    roll: 0.0
+    pitch: 0.0
+    yaw: 0.0
